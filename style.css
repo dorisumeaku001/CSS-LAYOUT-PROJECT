@@ -1,0 +1,514 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.nav {
+    font-size: 15px;
+    display: flex;
+    gap: 2rem;
+}
+
+#About {
+    color: #00b39b;
+    text-decoration: none;
+}
+#career {
+    color: #928f8f;
+    text-decoration: none;
+}
+#career:hover {
+    color: #00ccb1;
+}
+#department {
+    color:#928f8f ;
+    text-decoration: none;
+}
+#department:hover {
+    color: #00ccb1;
+}
+
+#smallogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+#firstp{
+    color: mediumaquamarine;
+    font: 150;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.column{
+    column-count: 2;
+    column-width: 250px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.column p{
+    margin-top: 0%;
+    color: #747474;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.for1 {
+    display: flex;
+    height: 340px;
+    background-color: #00ccb1;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 340px;
+}
+
+.flex-container select1 {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}   
+
+option {
+    font-weight: normal;
+    font-display: block;
+    white-space: collapse ;
+    min-height: 1.3em;
+    padding: opx 2px 1px;
+
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    writing-mode: horizontal-tb;
+}
+
+.for2 {
+    display: flex;
+    height: 340px;
+    background-color: rgb(32, 117, 255);;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 340px;
+}
+
+.for3 {
+    display: flex;
+    height: 340px;
+    background-color: rgb(24, 24, 27);
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 340px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+}
+.section3 div {
+    width: 50%;
+    display: flex;
+}
+
+#global p {
+    color: #00b39b;
+    font-size: 25px;
+}
+
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem ;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    background-color: #d0faf4;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 50px;
+    
+}
+
+.section4head {
+    padding-left: 100px;
+}
+
+.section4head h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 30px;
+    font-size: 30px;
+}    
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section4boxes {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}    
+
+.section4boxes div {
+    height: 500px;
+    width: 250px;
+}
+
+.first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.section4boxes h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.section4boxes p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+
+#patients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+.section4boxes h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.section4boxes p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}    
+.second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}    
+#appointment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+
+#appointment {
+    margin-bottom: 20px;
+}
+#doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#section5header {
+    color: #00ccb1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#section5p {
+    text-align: center;
+    color: #747474;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+.section6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.countryimg {   
+    overflow: clip;
+    background-repeat: inherit;
+    filter: drop-shadow();
+    
+}
+
+.button {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px ;
+}
+.section6 div {
+margin: 4.5px;
+}
+
+.button p {
+    font-size: 20px;
+    color: #747474;
+    padding-left: 10px;
+    
+}
+
+.section6 button {
+    color: white;
+    background-color: #3d83df;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section7 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.section7 h1 {
+    font-size: 25px;
+    color:rgb(67, 60, 60) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center ;
+}
+
+.section7 button {
+    background-color: #3d83df;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa9a9;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 15px;
+    
+}
+
+#Poland1 {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Poland1:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Turkey {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Turkey:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Germany {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Germany:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Czech {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Czech:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Portugal {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Portugal:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Mexico {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Mexico:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Colombia {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Colombia:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Brazil {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Brazil:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Argentina {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Argentina:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Peru {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Peru:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
+
+#Chile {
+    text-decoration: none;
+    color: #3d83df;
+}
+#Chile:hover {
+    color: #015dd5;
+    text-decoration: underline;
+}
